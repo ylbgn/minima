@@ -10,14 +10,19 @@ wget -O minima_cleanup_v98.sh https://raw.githubusercontent.com/minima-global/Mi
 - **İlk kez minima kuruyorsanız java'nın son sürümünün yüklü olduğuna emin olun. **
 
 - **Java versiyon kontrol etme **
+
 ```
 java --version
 ```
+
 - **Java yüklü değilse örnekteki gibi yükleyin**
 ```
-sudo apt-get install openjdk-8-jre```
+
+sudo apt-get install openjdk-8-jre
+```
 
 - **Kök dizinde aşağıdaki betiği çalıştırın ve bir kaç dakika bekleyin** 
+
 ```
 wget -O minima_setup.sh https://raw.githubusercontent.com/minima-global/Minima/master/scripts/minima_setup.sh && chmod +x minima_setup.sh && sudo ./minima_setup.sh -r 9002 -p 9001
 ```
@@ -27,7 +32,9 @@ wget -O minima_setup.sh https://raw.githubusercontent.com/minima-global/Minima/m
 ```
 https://incentive.minima.global/account/login
 ```
+
 - **Minima çalışırken, yukarıdaki teşvik programı web sitesinden kendi kimliğinizi kopyalayıp aşağıdaki id: yazan yere yapıştırıp komut satırına yazın**
+
 ```
 sudo apt install curl
 curl 127.0.0.1:9002/incentivecash%20uid:xxx-xxx-xxx-xxx-xxx
